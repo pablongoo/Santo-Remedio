@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROYECTOS
-
     </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    rel="stylesheet" 
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/style.css">
     <head>
         
@@ -13,37 +17,56 @@
         <body class="body3">
 
 
-            <nav class="navbar navbar-expand-lg">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                <div class="container-fluid">
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <div class="itemsnav1"><a href="./pages/nosotros.html" class="nav-link">NOSOTROS</a></div>
-                      </li>
-                      <li class="nav-item">
-                        <div class="itemsnav1"><a href="./pages/servicios.html" class="nav-link">SERVICIOS</a></div>
-                      </li>
-                      <li class="nav-item">
-                        <div class="itemsnav1"><a href="./pages/proyecto.html" class="nav-link">PROYECTOS</a></div>
-                      </li>
-                      <li class="nav-item">
-                        <div class="cotiza_tu_proyecto"><a href="./pages/cotiza_tu_proyecto.html" class="nav-link">COTIZA TU PROYECTO</a></div>
-                      </li>
-                    </ul>
-                  </div>
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Santo Remedio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <div class="itemsnav2"><a id="textnav2" href="../index.html" class="nav-link">INICIO</a></div>
+                    </li>
+                    <li class="nav-item">
+                      <div class="itemsnav2"><a id="textnav2" href="./servicios.html" class="nav-link">SERVICIOS</a></div>
+                    </li>
+                    <li class="nav-item">
+                      <div class="itemsnav2"><a  id="textnav2"href="./proyecto.html" class="nav-link">PROYECTOS</a></div>
+                    </li>
+                    <li class="nav-item">
+                      <div class="cotiza_tu_proyecto"><a href="./cotiza_tu_proyecto.html" class="nav-link">COTIZA TU PROYECTO</a></div>
+                    </li>
+                  </ul>
                 </div>
-              </nav>
+              </div>
+            </div>
+          </nav>
               
         <main>
-          <img src="../assets/images/LIVING 1.jpg" width="400px" height="400px">
-          <img src="../assets/images/CAMA Y PALETA 0.1.jpg" width="400px" height="400px">
-          <img src="../assets/images/BAÑO 2.jpg" width="400px" height="400px">
-          <img src="../assets/images/COCINA 1.jpg" width="400px" height="400px">
-          <img src="../assets/images/CAMA Y PALETA 2.2.jpg" width="400px" height="400px">
-          <img src="../assets/images/BAÑO 2.1.jpg" width="400px" height="400px">
+          
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../assets/images/cocina4.jpg" width="55%" height="100%">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/images/baño4.jpeg" width="55%" height="150%">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/images/dormitorio4.jpg" width="55%" height="100%">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         
         
         </main>
@@ -51,7 +74,6 @@
         
             <footer>
                 <div>
-             
                  <img src="../assets/images/wpp.png" class="wpp">
                  <img src="../assets/images/fb.png" class="fb">
                  <img src="../assets/images/ig.png" class="ig">
@@ -59,6 +81,11 @@
                 </div>
                    
              </footer>
+
+
+             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+             integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+             crossorigin="anonymous"></script>
         </body>
     
 </html>
